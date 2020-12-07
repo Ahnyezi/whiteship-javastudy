@@ -3,6 +3,22 @@ package datastructure.linkedlist;
 import java.util.ArrayList;
 import java.util.List;
 
+/*    
+    public class ListNode {         //ListNode 클래스
+    private int data;
+    public ListNode next;
+
+    public ListNode(int data) {
+        this.data = data;
+        this.next = null;
+    }
+
+    public int getData() {
+        return data;
+    }
+}
+*/
+
 public class LinkedListImpl implements LinkedList{
 
     public LinkedListImpl() {}
