@@ -11,8 +11,8 @@ boolean contains(ListNode head, ListNode nodeTocheck)를 구현하세요.
 ```
 
 - [ListNode](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/ListNode.java)
-- [LinkedListImpl](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/LinkedListImpl.java)
-- [LinkedListImplTest](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/LinkedListImplTest.java)
+- [LinkedListImpl : 링크드리스트 구현 코드](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/LinkedListImpl.java)
+- [LinkedListImplTest : JUnit5 사용한 테스트 코드](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/LinkedListImplTest.java)
 
 #### 2. int배열 사용한 Stack
 
@@ -22,8 +22,8 @@ void push(int data)를 구현하세요.
 int pop()을 구현하세요.
 ```
 
-- [StackImpl](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/StackImpl.java)
-- [StackImplTest](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/StackImplTest.java)
+- [StackImpl : 스택 구현 코드](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/StackImpl.java)
+- [StackImplTest : JUnit5 사용한 테스트 ](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/StackImplTest.java)
 
 #### 3. ListNode사용한 Stack
 
