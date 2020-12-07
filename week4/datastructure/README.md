@@ -3,7 +3,7 @@
 
 #### 1. LinkedList
 - ListNode
-- LinkedListImpl
+- [LinkedListImpl](https://github.com/Ahnyezi/whiteship-javastudy/blob/main/week4/datastructure/LinkedListImpl.java)
 - LinkedListImplTest
 
 #### 2. Stack
