@@ -3,6 +3,7 @@ package datastructure.stack;
 public class StackImpl implements Stack {
     private int arr[];
 
+    @Override
     public void push(int data) {
         // data가 arr의 첫번째 원소가 되는 경우
         if (arr == null) {
@@ -19,6 +20,7 @@ public class StackImpl implements Stack {
         arr[size] = data;// 마지막 방에 data 삽입
     }
 
+    @Override
     public int pop() {
         // pop할 원소가 없는 경우
         if (arr == null) throw new IndexOutOfBoundsException();

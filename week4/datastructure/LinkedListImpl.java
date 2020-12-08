@@ -22,6 +22,7 @@ public class LinkedListImpl implements LinkedList{
         }
     }
 
+    @Override
     public ListNode add(ListNode head, ListNode nodeToAdd, int position) {// position == index
         // position이 허용범위를 벗어난 경우
         if (!isAvailablePosition(head, position)) throw new IndexOutOfBoundsException();
@@ -41,6 +42,7 @@ public class LinkedListImpl implements LinkedList{
         return head;
     }
 
+    @Override
     public ListNode remove(ListNode head, int positionToRemove) {// positionToRemove == index
         // positionToRemove가 가능범위를 벗어난 경우
         if (!isAvailablePosition(head, positionToRemove) ||
@@ -57,6 +59,7 @@ public class LinkedListImpl implements LinkedList{
         return head;
     }
 
+    @Override
     public boolean contains(ListNode head, ListNode nodeToCheck) {
         while (head != null) {
             if (head.getData() == nodeToCheck.getData()) {//순회하며 가져온 노드의 값과 nodeToCheck의 값이 일치하는지 확인한다.

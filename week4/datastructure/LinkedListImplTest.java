@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-//https://brunch.co.kr/@pubjinson/16
 public class LinkedListImplTest {
     private LinkedListImpl list;
     private ListNode head;
@@ -25,7 +24,7 @@ public class LinkedListImplTest {
     }
 
     @Test
-    @DisplayName("addTest")
+    @DisplayName("add test")
     public void addTest() {
         assertAll("add test",
                 () -> {// init()에서 생성한 linkedlist를 확인
@@ -39,7 +38,7 @@ public class LinkedListImplTest {
     }
 
     @Test
-    @DisplayName("removeTest")
+    @DisplayName("remove test")
     public void removeTest() {
         assertAll("remove test",
                 () -> {// 연결리스트(1,3,5,7)에서 위치가 3(idx 기준)인 node 삭제
@@ -52,7 +51,7 @@ public class LinkedListImplTest {
     }
 
     @Test
-    @DisplayName("containsTest")
+    @DisplayName("contains test")
     public void containsTest() {
         assertAll("contains test",
                 () -> {// 연결리스트(1,3,5,7)가 1을 포함하는지 확인
